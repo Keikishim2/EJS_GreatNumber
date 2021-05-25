@@ -1,0 +1,36 @@
+body{
+    background: url('https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711');
+    background-size: cover;
+}
+.container{
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12cbe8a4-f55c-4b40-85bb-d8e1405e7b84/dbqyp52-f68a841a-b919-43c9-87fb-56d81f99e89d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyY2JlOGE0LWY1NWMtNGI0MC04NWJiLWQ4ZTE0MDVlN2I4NFwvZGJxeXA1Mi1mNjhhODQxYS1iOTE5LTQzYzktODdmYi01NmQ4MWY5OWU4OWQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vbhRXFQFUP204h58uhdA8o8Lftr8CCYh4sT-ADMyw3U');
+    background-size: cover;
+    border: 3px solid black;
+    box-shadow: 10px 10px black;
+    width: 600px;
+    height: 400px;
+    color: yellow;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+form{
+    margin-top: 50px;
+}
+form input{
+    border-radius: 20px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+form .submit{
+    display: block;
+    margin: 0 auto;
+    background-color: cyan;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+h1{
+    border-bottom: 4px solid darkcyan;
+}

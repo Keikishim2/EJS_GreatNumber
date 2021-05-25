@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+    <meta name='viewport' content='width-device-width, initial-scale=1.0'>
+    <title>Great Number Game</title>
+    <link rel='stylesheet' type='text/css' href='index.css'>
+</head>
+<body>
+    <div class='container'>
+        <h1>Welcome to the Great Number Game!</h1>
+        <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a Guess!</p>
+        <% if(guess === 'high'){ %>
+            <h2>TOO HIGH!</h2>
+            <form class='' action='/number' method='post'>
+                <input type='text' name='guess' placeholder='Between 1 to 100'>
+                <input type='submit' name='submit' class='submit'>
+            </form>
+        <% } else if(guess === 'low'){ %>
+            <h2>TOO LOW!</h2>
+            <form class='' action='/number' method='post'>
+                <input type='text' name='guess' placeholder='Between 1 to 100'>
+                <input type='submit' name='submit' class='submit'>
+            </form>
+        <% } else if(guess === 'correct'){ %>
+            <h2>YOU GUESSED IT RIGHT!</h2>
+            <a href='/reset'><button type='button' name='button'>RESET</button></a>
+        <% } else { %>
+            <form class='' action='/number' method='post'>
+                <input type='text' name='guess' placeholder='Between 1 to 100'>
+                <input type='submit' name='submit' value='submit' class='submit'>
+            </form>
+        <% } %>
+    </div>
+
+</body>
+</html>
